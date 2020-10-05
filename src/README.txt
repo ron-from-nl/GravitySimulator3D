@@ -1,6 +1,6 @@
 Have a quick look here to get a feeling: https://sites.google.com/site/ronuitholland/javafx
 
-GravitySimulator3D allows you to simulate (anti) gravity on 3D objects by editing scene files
+GravitySimulator3D allows you to simulate (anti) gravity on 3D objects by editing scene and resource files in your home\GravitySimulator3D directory
 
 It all starts with:
 
