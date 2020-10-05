@@ -1,0 +1,367 @@
+# Celestials (physical properties ) can be predefined in this file, so you can refer to only the celestial name inside the scene files
+#
+Begin = General Settings
+GravitationalConstant = 6.67408e-11
+End = General Settings
+#
+Begin = Celestial
+Load = True
+Name = vcam
+Mass = 10.0
+Radius = 0.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = cam
+Mass = 10.0
+Radius = 0.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = gcam
+Mass = 10.0
+Radius = 0.350
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = menu
+Mass = 1.0
+Radius = 1.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = clown
+Mass = 1.350
+Radius = 0.15
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = wall
+Mass = 1000.0
+Radius = 1000.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = gwall
+Mass = 1000.0
+Radius = 1000.0
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = dummy
+Mass = 1.0
+Radius = 1.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = axis
+Mass = 10.0
+Radius = 0.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = text
+Mass = 10.0
+Radius = 0.0
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = sun
+Mass = 1.98855e30
+Radius = 6.955e8
+Gravitational = False
+Collisional = False
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = gsun
+Mass = 1.98855e30
+Radius = 6.955e8
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = earth
+Mass = 5.98e24
+Radius = 6.38e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = moon
+Mass = 7.3477e22
+Radius = 1.73710e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = mercury
+Mass = 3.2e23
+Radius = 2.43e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = venus
+Mass = 4.88e24
+Radius = 6.073e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = mars
+Mass = 6.42e23
+Radius = 3.38e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = jupiter
+Mass = 1.901e27
+Radius = 6.98e7
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = saturn
+Mass = 5.68e26
+Radius = 5.82e7
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = uranus
+Mass = 8.68e25
+Radius = 2.35e7
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = neptune
+Mass = 1.03e26
+Radius = 2.27e7
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = pluto
+Mass = 1.2e22
+Radius = 1.15e6
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = apollo16
+Mass = 2449.0
+Radius = 4.5
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = iss
+Mass = 450000.0
+Radius = 55.0
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = bit
+Mass = 1.0
+Radius = 0.5
+Gravitational = False
+Collisional = False
+Group = 0
+Polarity = 1
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = proton
+Mass = 1.0e21
+Radius = 100.0
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 1
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = neutron
+Mass = 1.0e21
+Radius = 100.0
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = electron
+Mass = 5.446e17
+Radius = 1.0
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = -1
+End = Celestial
+#
+Begin = Celestial
+Load = True
+Name = photon
+Mass = 2.96e14
+Radius = 0.01
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 1
+End = Celestial
+#
+Begin = Celestial
+Load = False
+Name = proton
+Mass = 1.6726231e-27
+Radius = 5.0e-15
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 1
+End = Celestial
+#
+Begin = Celestial
+Load = False
+Name = neutron
+Mass = 1.6749286e-27
+Radius = 5.0e-15
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 0
+End = Celestial
+#
+Begin = Celestial
+Load = False
+Name = electron
+Mass = 9.1093897e-31
+Radius = 1.0e-15
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = -1
+End = Celestial
+#
+Begin = Celestial
+Load = False
+Name = photon
+Mass = 4.961541231e-34
+Radius = 2.0e-16
+Gravitational = True
+Collisional = False
+Group = 0
+Polarity = 1
+End = Celestial

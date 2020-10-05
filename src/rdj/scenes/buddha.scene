@@ -1,0 +1,368 @@
+# I love the Dharma (The teachings of suffering by Buddha)
+#
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = BLACK
+SceneTargetFrameRate = 0 # 0 = no delay, >0 = fixed targetframerate
+SceneMotionRate = 100 # Range = 0-1000
+SceneMotionFactor = 1
+SceneGravityFactor = 1
+SceneId = Buddha Scene
+StartsWithDisplays = False
+StartsWithMotion = True
+End = General Settings
+#
+################## Cam1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam1 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam1
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = True
+MainEngPwrMassFactor = 100.0
+TransEngPwrMassFactor = 10.0
+RotEngPwrMassFactor = 5.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 683.5704659236648
+TranslateY = 28.155409213409392
+TranslateZ = -847.578959214708
+TranslateXMotion = -0.0023579663412532197
+TranslateYMotion = 24.532907187473437
+TranslateZMotion = -4.81003735648786
+RotationX = 350.4250327079761
+RotationY = 0.028087413621277847
+RotationZ = 0.0
+RotationXMotion = 0.4
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Earth ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = earth 
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/earth-medres.jpg
+#
+# Celestial
+#
+CelestialRef = earth
+#CelestialName = earth
+#CelestialMass = 5.98e24
+#CelestialRadius = 6.38e6
+#CelestialGravitational = True
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -6000000.0
+TranslateY = 5000000.0
+TranslateZ = 2000000.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 290.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -0.3
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Moon ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = moon
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/moon-medres.jpg
+#
+# Celestial
+#
+#CelestialRef = moon
+CelestialName = moon
+CelestialMass = 7.3477e22
+CelestialRadius = 1.73710e6
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 3000000.0
+TranslateY = -2000000.0
+TranslateZ = 2000000.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 90.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Text ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = text 
+Function = Text
+TextOrFile = /rdj/resources/Text/buddha.txt # file or text
+FontName = Droid Sans
+FontWeight = NORMAL # BLACK BOLD EXTRA_BOLD EXTRA_LIGHT LIGHT MEDIUM NORMAL SEMI_BOLD THIN
+FontPosture = REGULAR # REGULAR ITALIC
+Color = WHITE
+FontSize = 40
+# MeshNodeFilter = nodename
+#
+# Celestial
+#
+CelestialRef = dummy
+#CelestialName = dummy
+#CelestialMass = 1e12
+#CelestialRadius = 5.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Stars ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = stars 
+Function = Stars
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+#
+TotalStars = 1000.0
+MinStarDistance = 150000000000.0
+MaxStarDistance = 1000000000000.0
+SelfIlluminating = True
+#
+# Celestial
+#
+CelestialRef = sun
+#CelestialName = sun
+#CelestialMass = 1.98855e30
+#CelestialRadius = 6.955e8
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+Cached = False
+#
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#

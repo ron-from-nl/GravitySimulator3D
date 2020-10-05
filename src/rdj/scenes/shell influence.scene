@@ -1,0 +1,1393 @@
+# This scene demonstrates how orbiting celestials influence each other
+# Notice the glass clown I gave my mother for her birthday as young kid 
+#
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = BLACK
+SceneId = Shell Influence
+SceneTargetFrameRate = 0 # 0 = no delay, >0 = fixed targetframerate
+SceneMotionRate = 100 # Range = 0-1000
+SceneMotionFactor = 1
+SceneGravityFactor = 1
+StartsWithDisplays = True
+StartsWithMotion = True
+End = General Settings
+#
+################## Cam1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam1 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam1
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 47.39074074543896
+TranslateY = -7.611927278960052
+TranslateZ = 18.249592845299606
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 349.5360000000128
+RotationY = 248.18999999999977
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam2 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam2 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam2
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -2.944593979634249
+TranslateY = 24.00419379974208
+TranslateZ = -7.102575806913276
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 37.3500000000059
+RotationY = 38.176999999625686
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam3 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam3
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam3
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 24.989698596364327
+TranslateY = 0.2720927513354491
+TranslateZ = -43.98504392098723
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 359.93599999943524
+RotationY = 333.7909999999993
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam4 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam4 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = qcam
+CelestialName = qcam
+CelestialMass = 100.0
+CelestialRadius = 5.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 8.613818448583505
+TranslateY = -0.23768103698252951
+TranslateZ = 18.0
+TranslateXMotion = 0.0
+TranslateYMotion = 15.400000000000002
+TranslateZMotion = 0.0
+RotationX = 0.08000000000051159
+RotationY = 269.6799999999999
+RotationZ = 0.0
+RotationXMotion = 10.0
+RotationYMotion = -25.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Earth ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = earth 
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/earth-lowres.jpg
+#
+# Celestial
+#
+#CelestialRef = earth
+CelestialName = proton
+CelestialMass = 1e14
+CelestialRadius = 5.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 7.609999999999963
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Moon1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = moon1 
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/moon-lowres.jpg
+#
+# Celestial
+#
+#CelestialRef = electron
+CelestialName = electron
+CelestialMass = 1e12
+CelestialRadius = 0.5
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -20.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = -16.2
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Moon2 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = moon2
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/moon-lowres.jpg
+#
+# Celestial
+#
+#CelestialRef = electron
+CelestialName = electron
+CelestialMass = 1e12
+CelestialRadius = 0.5
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 20.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = -16.2
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Moon3 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = moon3
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/moon-lowres.jpg
+#
+# Celestial
+#
+#CelestialRef = electron
+CelestialName = electron
+CelestialMass = 1e12
+CelestialRadius = 0.5
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 20.0
+TranslateXMotion = 0.0
+TranslateYMotion = 16.2
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 180.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Moon4 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = moon4
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/moon-lowres.jpg
+#
+# Celestial
+#
+#CelestialRef = electron
+CelestialName = electron
+CelestialMass = 1e10
+CelestialRadius = 0.05
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 3.0
+ScaleY = 3.0
+ScaleZ = 3.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 22.0
+TranslateXMotion = 0.0
+TranslateYMotion = 11.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 180.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Clown ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = clown 
+Function = Mesh
+MeshFile = /rdj/resources/GravityScene/clown.dae
+MeshNodeFilter = clown
+#
+# Celestial
+#
+#CelestialRef = clown
+CelestialName = clown
+CelestialMass = 1e12
+CelestialRadius = 5.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = -15.64
+TranslateZ = 0.0
+TranslateXMotion = 20.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 180.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -84.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Axis ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = axis 
+Function = Axis
+Width = 1.0
+Height = 1.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = axis
+CelestialName = axis
+CelestialMass = 10.0
+CelestialRadius = 0.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 24.52799999999899
+TranslateY = 0.5090727210399892
+TranslateZ = -42.00440715470171
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = False
+AddNodeToScene = True
+End = Object
+#
+################## upwall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+Group = Begin
+OnMenu = True
+Load = True
+Type = Node
+Name = upwall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-up-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = -5000.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 90.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## backWall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = backWall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-back-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = -5000.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## frontwall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = frontwall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-front-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 5000.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## leftwall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = leftwall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-left-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -5000.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 90.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## rightwall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = rightwall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-right-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 5000.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = -90.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## downwall ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = downwall 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/wall-down-white-lowres.jpg
+Width = 10000.0
+Height = 10000.0
+Depth = 1.0
+#
+# Celestial
+#
+#CelestialRef = wall
+CelestialName = wall
+CelestialMass = 1000.0
+CelestialRadius = 1000.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 5000.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 90.0
+RotationY = 180.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+#BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+#AddNodeToScene = True
+End = Object
+#
+################## Dummy ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = wall 
+Function = Dummy
+#
+# Celestial
+#
+CelestialRef = dummy
+#CelestialName = dummy
+#CelestialMass = 1.0
+#CelestialRadius = 1.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+Group = End
+End = Object
+#
+

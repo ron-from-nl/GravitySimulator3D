@@ -1,0 +1,460 @@
+# Paris scene is just a nice one to have
+#
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = SKYBLUE
+SceneId = Paris Scene
+StartsWithDisplays = True
+StartsWithMotion = True
+End = General Settings
+#
+################## Cam1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam1 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam1
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 19.433265256180213
+TranslateY = -99.66983996600312
+TranslateZ = -39.24133947333895
+TranslateXMotion = 0.6099150897179743
+TranslateYMotion = -0.0037784332517246232
+TranslateZMotion = 0.01017758980876229
+RotationX = 345.26200000004644
+RotationY = 354.15700000002914
+RotationZ = 0.0
+RotationXMotion = -0.15
+RotationYMotion = -0.25
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam2 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam2 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam2
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -133.60944174951874
+TranslateY = -89.16301052934158
+TranslateZ = -250.410042982782
+TranslateXMotion = -0.1407876974138976
+TranslateYMotion = 0.031006266260921504
+TranslateZMotion = -0.08051497666010846
+RotationX = 346.7219999999718
+RotationY = 276.40700000002494
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.25
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam3 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam3
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam3
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -114.20859552749471
+TranslateY = -65.84636044590104
+TranslateZ = 27.066595306519975
+TranslateXMotion = 0.18901190618084296
+TranslateYMotion = -0.012822129490126016
+TranslateZMotion = -0.10157801099264865
+RotationX = 11.93899999990369
+RotationY = 73.1519999997455
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Cam4 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = cam4 
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+CelestialRef = cam
+#CelestialName = cam4
+#CelestialMass = 10.0
+#CelestialRadius = 0.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -1084.9800564247732
+TranslateY = -132.54209105586781
+TranslateZ = 971.3422706938726
+TranslateXMotion = -0.017537394532674364
+TranslateYMotion = 0.018670527597285373
+TranslateZMotion = -3.9294093333659417
+RotationX = 333.1359999999843
+RotationY = 128.90499999999258
+RotationZ = 0.0
+RotationXMotion = 0.05
+RotationYMotion = -0.4
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Paris ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = paris 
+Function = Mesh
+MeshFile = /rdj/resources/ParisScene/paris.obj
+# MeshNodeFilter = nodename
+#
+# Celestial
+#
+#CelestialRef = dummy
+CelestialName = dummy
+CelestialMass = 1e12
+CelestialRadius = 5.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Floor ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = floor 
+Function = Box
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/HomeScene/grassland.jpg
+Width = 10000.0
+Height = 1.0
+Depth = 10000.0
+#
+# Celestial
+#
+CelestialRef = gwall
+#CelestialName = wall
+#CelestialMass = 1000.0
+#CelestialRadius = 1000.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.5
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#

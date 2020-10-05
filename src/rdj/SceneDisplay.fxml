@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<Group fx:id="rootGroup" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="rdj.SceneDisplayController">
+<children><Rectangle fx:id="displayRect" arcHeight="75.0" arcWidth="75.0" height="750.0" onMouseClicked="#disableMouseMovement" opacity="0.3" stroke="BLACK" strokeLineCap="SQUARE" strokeLineJoin="MITER" strokeType="INSIDE" width="150.0" />
+      <VBox fx:id="mainVBox" alignment="CENTER" prefHeight="750.0" prefWidth="150.0">
+         <children>
+            <VBox fx:id="fpsVBox" prefHeight="33.0" prefWidth="130.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="10.0" prefWidth="130.0">
+                     <children>
+                        <Label id="" fx:id="fpsHeaderLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="84.0" prefHeight="10.0" prefWidth="80.0" style="-fx-font-size: 9;" styleClass="profileTitl" text="Real FPS" textAlignment="CENTER">
+                           <textFill>
+                              <Color blue="1.0" green="1.0" red="1.0" />
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="130.0">
+                     <children>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="80.0">
+                           <children>
+                              <Label fx:id="fpsLabel" alignment="CENTER" layoutX="47.0" layoutY="34.0" opacity="1" prefHeight="16.0" prefWidth="75.0" style="-fx-font-size: 9;" text="0" textAlignment="CENTER" textOverrun="ELLIPSIS">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <Rectangle fx:id="fpsRect" arcHeight="10.0" arcWidth="10.0" height="15.0" layoutX="49.0" layoutY="32.0" onMouseClicked="#frameRateRectOnMouseClicked" onMouseEntered="#frameRateRectOnMouseEntered" onMouseExited="#frameRateRectOnMouseExited" stroke="GREY" strokeType="INSIDE" width="75.0">
+                                 <fill>
+                                    <Color opacity="0.0" />
+                                 </fill>
+                              </Rectangle>
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="13.0" layoutY="131.0" prefHeight="10.0" prefWidth="130.0">
+                     <children>
+                        <Label id="" fx:id="frameRateHeaderLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="84.0" prefHeight="10.0" prefWidth="80.0" style="-fx-font-size: 9;" styleClass="profileTitl" text="Target FPS" textAlignment="CENTER">
+                           <textFill>
+                              <Color blue="1.0" green="1.0" red="1.0" />
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="12.0" layoutY="167.0" prefHeight="20.0" prefWidth="130.0">
+                     <children>
+                        <StackPane alignment="CENTER" layoutX="49.0" layoutY="274.0" prefHeight="20.0" prefWidth="20.0">
+                           <children>
+                              <Label fx:id="frameRateDecreaseLabel" layoutX="31.0" layoutY="33.0" mouseTransparent="true" prefHeight="13.0" prefWidth="6.0" text="-">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <Rectangle fx:id="frameRateDecreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="25.0" layoutY="32.0" onMouseClicked="#frameRateDecreaseOnMouseClicked" onMouseEntered="#frameRateDecreaseOnMouseEntered" onMouseExited="#frameRateDecreaseOnMouseExited" onMousePressed="#frameRateDecreaseOnMousePressed" onMouseReleased="#frameRateDecreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" StackPane.alignment="CENTER" />
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="80.0">
+                           <children>
+                              <Label fx:id="frameRateLabel" alignment="CENTER" layoutX="47.0" layoutY="34.0" opacity="1" prefHeight="16.0" prefWidth="75.0" style="-fx-font-size: 9;" text="0" textAlignment="CENTER" textOverrun="ELLIPSIS">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <TextField fx:id="frameRateTField" alignment="CENTER" onKeyPressed="#frameRateTFieldOnKeyPressed" prefHeight="15.0" prefWidth="80.0" style="-fx-font-size: 8;" visible="false" />
+                              <Rectangle fx:id="frameRateRect" arcHeight="10.0" arcWidth="10.0" height="15.0" layoutX="49.0" layoutY="32.0" onMouseClicked="#frameRateRectOnMouseClicked" onMouseEntered="#frameRateRectOnMouseEntered" onMouseExited="#frameRateRectOnMouseExited" stroke="GREY" strokeType="INSIDE" width="75.0">
+                                 <fill>
+                                    <Color opacity="0.0" />
+                                 </fill>
+                              </Rectangle>
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="20.0">
+                           <children>
+                              <Label fx:id="frameRateIncreaseLabel" layoutX="106.0" layoutY="31.0" mouseTransparent="true" opacity="1" text="+">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <Rectangle fx:id="frameRateIncreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="106.0" layoutY="32.0" onMouseClicked="#frameRateIncreaseOnMouseClicked" onMouseEntered="#frameRateIncreaseOnMouseEntered" onMouseExited="#frameRateIncreaseOnMouseExited" onMousePressed="#frameRateIncreaseOnMousePressed" onMouseReleased="#frameRateIncreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" />
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="factorVBox" prefHeight="69.0" prefWidth="130.0">
+      <children>
+                  <HBox alignment="CENTER" prefHeight="10.0" prefWidth="130.0">
+                     <children>
+                        <Label id="" fx:id="motionRateHeaderLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="84.0" opacity="1" prefHeight="10.0" prefWidth="80.0" style="-fx-font-size: 9;" styleClass="profileTitl" text="Motion Rate" textAlignment="CENTER">
+                           <textFill>
+                              <Color blue="1.0" green="1.0" red="1.0" />
+                           </textFill>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="20.0" prefWidth="130.0">
+                     <children>
+                        <StackPane alignment="CENTER" layoutX="49.0" layoutY="274.0" prefHeight="20.0" prefWidth="20.0">
+                           <children>
+                              <Label fx:id="motionRateDecreaseLabel" layoutX="31.0" layoutY="33.0" mouseTransparent="true" opacity="1" prefHeight="13.0" prefWidth="6.0" text="-">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <Rectangle fx:id="motionRateDecreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="25.0" layoutY="32.0" onMouseClicked="#motionRateDecreaseOnMouseClicked" onMouseEntered="#motionRateDecreaseOnMouseEntered" onMouseExited="#motionRateDecreaseOnMouseExited" onMousePressed="#motionRateDecreaseOnMousePressed" onMouseReleased="#motionRateDecreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" StackPane.alignment="CENTER" />
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="80.0">
+                           <children>
+                              <Label fx:id="motionRateLabel" alignment="CENTER" layoutX="47.0" layoutY="34.0" opacity="1" prefHeight="16.0" prefWidth="75.0" style="-fx-font-size: 9;" text="0" textAlignment="CENTER" textOverrun="ELLIPSIS">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <TextField fx:id="motionRateTField" alignment="CENTER" onKeyPressed="#motionRateTFieldOnKeyPressed" prefHeight="15.0" prefWidth="80.0" style="-fx-font-size: 8;" visible="false" />
+                              <Rectangle fx:id="motionRateRect" arcHeight="10.0" arcWidth="10.0" height="15.0" layoutX="49.0" layoutY="32.0" onMouseClicked="#motionRateRectOnMouseClicked" onMouseEntered="#motionRateRectOnMouseEntered" onMouseExited="#motionRateRectOnMouseExited" stroke="GREY" strokeType="INSIDE" width="75.0">
+                                 <fill>
+                                    <Color opacity="0.0" />
+                                 </fill>
+                              </Rectangle>
+                           </children>
+                        </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="20.0">
+                           <children>
+                              <Label fx:id="motionRateIncreaseLabel" layoutX="106.0" layoutY="31.0" mouseTransparent="true" opacity="1" text="+">
+                                 <textFill>
+                                    <Color blue="1.0" green="1.0" red="1.0" />
+                                 </textFill>
+                              </Label>
+                              <Rectangle fx:id="motionRateIncreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="106.0" layoutY="32.0" onMouseClicked="#motionRateIncreaseOnMouseClicked" onMouseEntered="#motionRateIncreaseOnMouseEntered" onMouseExited="#motionRateIncreaseOnMouseExited" onMousePressed="#motionRateIncreaseOnMousePressed" onMouseReleased="#motionRateIncreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" />
+                           </children>
+                        </StackPane>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" layoutX="13.0" layoutY="131.0" prefHeight="10.0" prefWidth="130.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+                        <Label id="" fx:id="motionFactorHeaderLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="84.0" opacity="1" prefHeight="10.0" prefWidth="80.0" style="-fx-font-size: 9;" styleClass="profileTitl" text="Motion Factor" textAlignment="CENTER">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+                        </Label>
+      </children>
+      </HBox>
+                  <HBox alignment="CENTER" layoutX="12.0" layoutY="167.0" prefHeight="20.0" prefWidth="130.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+                        <StackPane alignment="CENTER" layoutX="49.0" layoutY="274.0" prefHeight="20.0" prefWidth="20.0">
+      <children>
+                              <Label fx:id="motionFactorDecreaseLabel" layoutX="31.0" layoutY="33.0" mouseTransparent="true" opacity="1" prefHeight="13.0" prefWidth="6.0" text="-" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+                              </Label>
+                              <Rectangle fx:id="motionFactorDecreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="25.0" layoutY="32.0" onMouseClicked="#motionFactorDecreaseOnMouseClicked" onMouseEntered="#motionFactorDecreaseOnMouseEntered" onMouseExited="#motionFactorDecreaseOnMouseExited" onMousePressed="#motionFactorDecreaseOnMousePressed" onMouseReleased="#motionFactorDecreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" StackPane.alignment="CENTER" />
+      </children>
+                        </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="80.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+                              <Label fx:id="motionFactorLabel" alignment="CENTER" layoutX="47.0" layoutY="34.0" opacity="1" prefHeight="16.0" prefWidth="75.0" style="-fx-font-size: 9;" text="0" textAlignment="CENTER" textOverrun="ELLIPSIS">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+                              </Label>
+                              <TextField fx:id="motionFactorTField" alignment="CENTER" onKeyPressed="#motionFactorTFieldOnKeyPressed" prefHeight="15.0" prefWidth="80.0" style="-fx-font-size: 8;" visible="false" />
+                              <Rectangle fx:id="motionFactorRect" arcHeight="10.0" arcWidth="10.0" height="15.0" layoutX="49.0" layoutY="32.0" onMouseClicked="#motionFactorRectOnMouseClicked" onMouseEntered="#motionFactorRectOnMouseEntered" onMouseExited="#motionFactorRectOnMouseExited" stroke="GREY" strokeType="INSIDE" width="75.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <fill>
+      <Color opacity="0.0" />
+      </fill>
+      </Rectangle>
+      </children>
+      </StackPane>
+                        <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+                              <Label fx:id="motionFactorIncreaseLabel" layoutX="106.0" layoutY="31.0" mouseTransparent="true" opacity="1" text="+">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+                              </Label>
+                              <Rectangle fx:id="motionFactorIncreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="106.0" layoutY="32.0" onMouseClicked="#motionFactorIncreaseOnMouseClicked" onMouseEntered="#motionFactorIncreaseOnMouseEntered" onMouseExited="#motionFactorIncreaseOnMouseExited" onMousePressed="#motionFactorIncreaseOnMousePressed" onMouseReleased="#motionFactorIncreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+      </children>
+      </StackPane>
+      </children>
+      </HBox>
+                  <HBox alignment="CENTER" layoutX="13.0" layoutY="144.0" prefHeight="10.0" prefWidth="130.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+                        <Label fx:id="gravetyFactorHeaderLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="63.0" opacity="1" prefHeight="10.0" prefWidth="80.0" style="-fx-font-size: 9;" text="Gravity Factor" textAlignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+      </Label>
+      </children>
+      </HBox>
+                  <HBox alignment="CENTER" layoutX="13.0" layoutY="209.0" prefHeight="20.0" prefWidth="130.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+      <children>
+      <StackPane alignment="CENTER" layoutX="49.0" layoutY="274.0" prefHeight="20.0" prefWidth="20.0">
+      <children>
+      <Label fx:id="gravityFactorDecreaseLabel" layoutX="31.0" layoutY="33.0" mouseTransparent="true" opacity="1" prefHeight="13.0" prefWidth="6.0" text="-">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+      </Label>
+      <Rectangle fx:id="gravityFactorDecreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="25.0" layoutY="32.0" onMouseClicked="#gravityFactorDecreaseOnMouseClicked" onMouseEntered="#gravityFactorDecreaseOnMouseEntered" onMouseExited="#gravityFactorDecreaseOnMouseExited" onMousePressed="#gravityFactorDecreaseOnMousePressed" onMouseReleased="#gravityFactorDecreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" StackPane.alignment="CENTER" />
+      </children>
+      </StackPane>
+      <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="80.0">
+      <children>
+      <Label fx:id="gravityFactorLabel" alignment="CENTER" layoutX="47.0" layoutY="34.0" opacity="1" prefHeight="16.0" prefWidth="75.0" style="-fx-font-size: 9;" text="0" textAlignment="CENTER" textOverrun="ELLIPSIS">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+      </Label>
+                              <TextField fx:id="gravityFactorTField" alignment="CENTER" onKeyPressed="#gravityFactorTFieldOnKeyPressed" prefHeight="15.0" prefWidth="80.0" style="-fx-font-size: 8;" visible="false" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" />
+      <Rectangle fx:id="gravityFactorRect" arcHeight="10.0" arcWidth="10.0" height="15.0" layoutX="49.0" layoutY="32.0" onMouseClicked="#gravityFactorRectOnMouseClicked" onMouseEntered="#gravityFactorRectOnMouseEntered" onMouseExited="#gravityFactorRectOnMouseExited" stroke="GREY" strokeType="INSIDE" width="75.0">
+      <fill>
+      <Color opacity="0.0" />
+      </fill>
+      </Rectangle>
+      </children>
+      </StackPane>
+      <StackPane alignment="CENTER" layoutX="36.0" layoutY="286.0" prefHeight="20.0" prefWidth="20.0">
+      <children>
+      <Label fx:id="gravityFactorIncreaseLabel" layoutX="106.0" layoutY="31.0" mouseTransparent="true" opacity="1" text="+">
+      <textFill>
+      <Color blue="1.0" green="1.0" red="1.0" />
+      </textFill>
+      </Label>
+      <Rectangle fx:id="gravityFactorIncreaseRect" arcHeight="10.0" arcWidth="10.0" fill="TRANSPARENT" height="15.0" layoutX="106.0" layoutY="32.0" onMouseClicked="#gravityFactorIncreaseOnMouseClicked" onMouseEntered="#gravityFactorIncreaseOnMouseEntered" onMouseExited="#gravityFactorIncreaseOnMouseExited" onMousePressed="#gravityFactorIncreaseOnMousePressed" onMouseReleased="#gravityFactorIncreaseOnMouseReleased" stroke="GREY" strokeType="INSIDE" width="15.0" />
+      </children>
+      </StackPane>
+      </children>
+      </HBox>
+      </children>
+            </VBox>
+            <VBox fx:id="sceneSectionVBox" alignment="TOP_CENTER" prefHeight="147.0" prefWidth="130.0" />
+            <VBox fx:id="nodesVBox" alignment="TOP_CENTER" prefHeight="228.0" prefWidth="130.0" />
+         </children>
+      </VBox>
+</children></Group>

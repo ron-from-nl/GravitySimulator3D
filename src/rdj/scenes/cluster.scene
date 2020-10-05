@@ -1,0 +1,978 @@
+# cluster.scene demonstrates the anti gravitational effect that a sphere has on a cluster of mass particles (toruses and hyperspheres)
+#
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = BLACK
+SceneId = Cluster Scene
+SceneTargetFrameRate = 10 # 0 = no delay, >0 = fixed targetframerate
+SceneMotionRate = 10 # Range = 0-1000
+SceneMotionFactor = 1
+SceneGravityFactor = 1
+StartsWithDisplays = True
+StartsWithMotion = True
+End = General Settings
+#
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 6,669832582
+################## Side Cam ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Side Cam
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera1
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = -20.0
+TranslateZ = -500.0
+TranslateXMotion = -25.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = -5.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 2.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Rear Cam ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Rear Cam
+Function = Camera
+ZoomAngle = 100.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera2
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 400.0
+TranslateY = -20.0
+TranslateZ = -100.0
+TranslateXMotion = -20.0
+TranslateYMotion = 0.0
+TranslateZMotion = 20.0
+RotationX = -2.0
+RotationY = -80.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -2.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Front Cam ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Front Cam
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera3
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -400.0
+TranslateY = -20.0
+TranslateZ = -100.0
+TranslateXMotion = -30.0
+TranslateYMotion = 0.0
+TranslateZMotion = 20.0
+RotationX = -5.0
+RotationY = 80.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 1.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Free Cam ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Free Cam
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = -20.0
+TranslateZ = -350
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 354.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Sun ####################
+# Orbital Velocity: sqrt((6,673e-11*9,155e17)/30000) = 45.1262359 mps
+#
+Begin = Object
+Verbosity = 0
+Load = True
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Type = Node
+Name = Sun
+Function = Sphere
+Divisions = 64
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = GREY
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+
+DropTrail = Tru
+TrailDivisions = 32
+TrailLength = 50
+TrailColor = LIGHTBLUE
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 5000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Sun
+CelestialName = Sun
+CelestialMass = 1.0e15
+CelestialRadius = 50.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 300.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = -50.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 10.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = False
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Torus1 ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = Torus1
+Function = Torus
+TorusRotate = Math.PI # Number in between -Math.PI-(Math.PI/2) and Math.PI-(Math.PI/2); so, -1.570796327 and 1.570796327; Only use for Function: Torus
+Shells = 2
+ShellRadius = 120.0
+ShellResolution = 10.0 # Degrees
+ShellMotion = 0 # m/Sec Fixed headstart motion away from or towards the shell's center
+Randomise = 0.0 # Percentage random shift between nodes
+
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = YELLOW
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = Tru
+TrailDivisions = 8
+TrailLength = 10
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Torus
+CelestialName = Torus1
+CelestialMass = 1e10
+CelestialRadius = 2.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 1
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.1
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Torus2 ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = Torus2
+Function = Torus
+TorusRotate = Math.PI/2 # Number in between -Math.PI-(Math.PI/2) and Math.PI-(Math.PI/2); so, -1.570796327 and 1.570796327; Only use for Function: Torus
+Shells = 2
+ShellRadius = 120.0
+ShellResolution = 10.0 # Degrees
+ShellMotion = 0 # m/Sec Fixed headstart motion away from or towards the shell's center
+Randomise = 0.0 # Percentage random shift between nodes
+
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = ORANGE
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = Tru
+TrailDivisions = 8
+TrailLength = 10
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Torus
+CelestialName = Torus2
+CelestialMass = 1e10
+CelestialRadius = 2.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 2
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Torus 3 Dummy ####################
+#
+Begin = Object
+Verbosity = 0
+Group = Begin
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = Torus3
+Function = Dummy
+#
+# Celestial
+#
+CelestialRef = dummy
+#CelestialName = dummy
+#CelestialMass = 1.0
+#CelestialRadius = 1.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialGroup = 3
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 1
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 90.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = False
+BackupCoordinalState = False
+AddNodeToList = False
+SetNodeVisible = False
+AddNodeToScene = False
+End = Object
+#
+################## Torus3 ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = Torus3
+Function = Torus
+TorusRotate = 0 # Number in between -Math.PI-(Math.PI/2) and Math.PI-(Math.PI/2); so, -1.570796327 and 1.570796327; Only use for Function: Torus
+Shells = 2
+ShellRadius = 120.0
+ShellResolution = 10.0 # Degrees
+ShellMotion = 0 # m/Sec Fixed headstart motion away from or towards the shell's center
+Randomise = 0.0 # Percentage random shift between nodes
+
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = RED
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = Tru
+TrailDivisions = 8
+TrailLength = 10
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Torus
+CelestialName = Torus3
+CelestialMass = 1e10
+CelestialRadius = 2.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 3
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -0.1
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Torus3 Dummy ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = Torus2 
+Function = Dummy
+#
+# Celestial
+#
+CelestialRef = dummy
+#CelestialName = dummy
+#CelestialMass = 1.0
+#CelestialRadius = 1.0
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialGroup = 3
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 90.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+Group = End
+End = Object
+#
+################## HyperSphere ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # Example: 5000 + (Math.random() * 60000) # mSec
+OnMenu = False
+Load = True
+Type = Node
+Name = HyperSphere
+Function = HyperSphere
+Shells = 2
+ShellRadius = 80.0
+ShellResolution = 20.0 # Degrees
+ShellMotion = 0 # m/Sec Fixed headstart motion away from or towards the shell's center
+Randomise = 0.0 # Percentage random shift between nodes
+
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = WHITE
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = Tru
+TrailDivisions = 8
+TrailLength = 10
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = HyperSphere
+CelestialName = HyperSphere
+CelestialMass = 1e10
+CelestialRadius = 2.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 4
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 1
+TranslateY = 0
+TranslateZ = 0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Stars ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = stars 
+Function = Stars
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+#
+TotalStars = 250
+MinStarDistance = 150000000000.0
+MaxStarDistance = 1000000000000.0
+SelfIlluminating = True
+#
+# Celestial
+#
+CelestialRef = sun
+#CelestialName = sun
+#CelestialMass = 1.98855e30
+#CelestialRadius = 6.955e8
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+Cached = True
+#
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#

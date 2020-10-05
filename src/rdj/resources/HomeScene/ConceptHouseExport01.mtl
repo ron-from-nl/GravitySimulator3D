@@ -1,0 +1,533 @@
+# Alias Wavefront MTL File Exported from SketchUp
+# with OBJexporter (c) 2013 TIG
+# Made for 'ConceptHouseExport01.obj'
+
+newmtl Default_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SW_6539_Soothing_White
+Ka 0.894118 0.886275 0.898039
+Kd 0.894118 0.886275 0.898039
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Translucent_Glass_Gray
+Ka 0.501961 0.501961 0.501961
+Kd 0.501961 0.501961 0.501961
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.5
+Tr 0.5
+
+newmtl suc-paving-054a
+Ka 0.572549 0.419608 0.27451
+Kd 0.572549 0.419608 0.27451
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/suc-paving-054a.jpg
+
+newmtl Stone_Texture01a
+Ka 0.87451 0.878431 0.831373
+Kd 0.87451 0.878431 0.831373
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Stone_Texture01a.jpg
+
+newmtl Tile_SouthHampton_6
+Ka 0.607843 0.596078 0.517647
+Kd 0.607843 0.596078 0.517647
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_SouthHampton_6.JPG
+
+newmtl 00_TaME_MetalBrushedDark01
+Ka 0.368627 0.368627 0.368627
+Kd 0.368627 0.368627 0.368627
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/00_TaME_MetalBrushedDark01.jpg
+
+newmtl H1709_ST24
+Ka 0.509804 0.301961 0.145098
+Kd 0.509804 0.301961 0.145098
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/H1709_ST24.jpg
+
+newmtl Vegetation_Pansies
+Ka 0.345098 0.286275 0.278431
+Kd 0.345098 0.286275 0.278431
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Vegetation_Pansies.jpg
+
+newmtl suc-paving-007
+Ka 0.803922 0.807843 0.768627
+Kd 0.803922 0.807843 0.768627
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/suc-paving-007.jpg
+
+newmtl Stone-2407b
+Ka 0.494118 0.498039 0.486275
+Kd 0.494118 0.498039 0.486275
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Stone-2407b.jpg
+
+newmtl Vegetation_Impatiens_Pink
+Ka 0.705882 0.533333 0.603922
+Kd 0.705882 0.533333 0.603922
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Vegetation_Impatiens_Pink.jpg
+
+newmtl Tile_Crossville_01
+Ka 0.462745 0.439216 0.407843
+Kd 0.462745 0.439216 0.407843
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_Crossville_01.jpg
+
+newmtl Tile_OxFord_13a
+Ka 0.337255 0.337255 0.309804
+Kd 0.337255 0.337255 0.309804
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_OxFord_13a.JPG
+
+newmtl tile022-7
+Ka 0.505882 0.443137 0.333333
+Kd 0.505882 0.443137 0.333333
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/tile022-7.jpg
+
+newmtl Water_Pool_Light
+Ka 0.243137 0.584314 0.65098
+Kd 0.243137 0.584314 0.65098
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.6
+Tr 0.6
+map_Kd ConceptHouseExport01_Textures/Water_Pool_Light.jpg
+
+newmtl Concrete_Aggregate_Small
+Ka 0.756863 0.752941 0.745098
+Kd 0.756863 0.752941 0.745098
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Concrete_Aggregate_Small.jpg
+
+newmtl Formica_Standard_Lam_180fx_3461_Black_Fossilstone_48x96
+Ka 0.180392 0.184314 0.176471
+Kd 0.180392 0.184314 0.176471
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Formica_Standard_Lam_180fx_3461_Black_Fossilstone_48x96.jpg
+
+newmtl Color_C10
+Ka 0.8 0.717647 0.639216
+Kd 0.8 0.717647 0.639216
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 00_TaME_Bronze02
+Ka 0.698039 0.564706 0.227451
+Kd 0.698039 0.564706 0.227451
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/00_TaME_Bronze02.jpg
+
+newmtl JoA1_Marble5
+Ka 0.890196 0.85098 0.745098
+Kd 0.890196 0.85098 0.745098
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/JoA1_Marble5.jpg
+
+newmtl roof-pantiles5
+Ka 0.498039 0.27451 0.196078
+Kd 0.498039 0.27451 0.196078
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/roof-pantiles5.jpg
+
+newmtl Asphalt_Rubber_Black
+Ka 0.231373 0.231373 0.231373
+Kd 0.231373 0.231373 0.231373
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Asphalt_Rubber_Black.jpg
+
+newmtl Ceiling_Tile_04
+Ka 0.835294 0.827451 0.835294
+Kd 0.835294 0.827451 0.835294
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Ceiling_Tile_04.jpg
+
+newmtl SW_7643_Pussywillow
+Ka 0.698039 0.682353 0.65098
+Kd 0.698039 0.682353 0.65098
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl H1555_ST15
+Ka 0.211765 0.101961 0.054902
+Kd 0.211765 0.101961 0.054902
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/H1555_ST15.jpg
+
+newmtl 0137_Black
+Ka 0.407843 0.262745 0.25098
+Kd 0.407843 0.262745 0.25098
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0136_Charcoal
+Ka 0.137255 0.137255 0.137255
+Kd 0.137255 0.137255 0.137255
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SUC_Floor_024
+Ka 0.513725 0.309804 0.0784314
+Kd 0.513725 0.309804 0.0784314
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/SUC_Floor_024.jpg
+
+newmtl Tile_BeauMont_3
+Ka 0.364706 0.34902 0.223529
+Kd 0.364706 0.34902 0.223529
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_BeauMont_3.JPG
+
+newmtl Tile_WellingTon_12
+Ka 0.658824 0.627451 0.603922
+Kd 0.658824 0.627451 0.603922
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_WellingTon_12.JPG
+
+newmtl Desert_Rose_Tile
+Ka 0.756863 0.568627 0.482353
+Kd 0.756863 0.568627 0.482353
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Desert_Rose_Tile.jpg
+
+newmtl SW_6253_Olympus_White
+Ka 0.94902 0.952941 0.968627
+Kd 0.94902 0.952941 0.968627
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Fencing_Diamond_Mesh3
+Ka 0.764706 0.639216 0.239216
+Kd 0.764706 0.639216 0.239216
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Fencing_Diamond_Mesh3.png
+
+newmtl Tile_Crossville04a
+Ka 0.698039 0.635294 0.643137
+Kd 0.698039 0.635294 0.643137
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Tile_Crossville04a.jpg
+
+newmtl 0020_Red
+Ka 1 0 0
+Kd 1 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0103_Blue
+Ka 0 0 1
+Kd 0 0 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Metal_Corrogated_Shiny
+Ka 0.756863 0.756863 0.756863
+Kd 0.756863 0.756863 0.756863
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Metal_Corrogated_Shiny.jpg
+
+newmtl Material5
+Ka 0.709804 0.729412 0.729412
+Kd 0.709804 0.729412 0.729412
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Material5.jpg
+
+newmtl 00_TaME_MetalBrushedAluminum01
+Ka 0.780392 0.784314 0.784314
+Kd 0.780392 0.784314 0.784314
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/00_TaME_MetalBrushedAluminum01.jpg
+
+newmtl SUC_Wood_024
+Ka 0.2 0.133333 0.0784314
+Kd 0.2 0.133333 0.0784314
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/SUC_Wood_024.jpg
+
+newmtl 6mm_SB80_2_on_Optiblue_Optiblue
+Ka 0.396078 0.486275 0.513725
+Kd 0.396078 0.486275 0.513725
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.95
+Tr 0.95
+
+newmtl Reeded
+Ka 0.588235 0.713725 0.737255
+Kd 0.588235 0.713725 0.737255
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.95
+Tr 0.95
+map_Kd ConceptHouseExport01_Textures/Reeded.jpg
+
+newmtl leather_faux_012
+Ka 0.894118 0.894118 0.807843
+Kd 0.894118 0.894118 0.807843
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/leather_faux_012.jpg
+
+newmtl 0132_LightGray
+Ka 0.662745 0.662745 0.662745
+Kd 0.662745 0.662745 0.662745
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SW_6149_Relaxed_Khaki
+Ka 0.901961 0.831373 0.737255
+Kd 0.901961 0.831373 0.737255
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0013_LightCoral
+Ka 0.941176 0.501961 0.501961
+Kd 0.941176 0.501961 0.501961
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0006_Pink
+Ka 1 0.752941 0.796078
+Kd 1 0.752941 0.796078
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0022_Maroon
+Ka 0.501961 0 0
+Kd 0.501961 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SUC_Wood_010
+Ka 0.741176 0.619608 0.392157
+Kd 0.741176 0.619608 0.392157
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/SUC_Wood_010.jpg
+
+newmtl Sequoia
+Ka 0.709804 0.458824 0.333333
+Kd 0.709804 0.458824 0.333333
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Sequoia.jpg
+
+newmtl Reeded1
+Ka 0.858824 0.901961 0.878431
+Kd 0.858824 0.901961 0.878431
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.5
+Tr 0.5
+map_Kd ConceptHouseExport01_Textures/Reeded1.jpg
+
+newmtl 0135_DarkGray
+Ka 0.317647 0.317647 0.317647
+Kd 0.317647 0.317647 0.317647
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SUC_Wood_010a
+Ka 0.737255 0.619608 0.388235
+Kd 0.737255 0.619608 0.388235
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/SUC_Wood_010a.jpg
+
+newmtl 0133_Gray
+Ka 0.501961 0.501961 0.501961
+Kd 0.501961 0.501961 0.501961
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl 0069_LimeGreen
+Ka 0.196078 0.803922 0.196078
+Kd 0.196078 0.803922 0.196078
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Glass_Gold_Tint
+Ka 0.411765 0.403922 0.286275
+Kd 0.411765 0.403922 0.286275
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl tile004-127-136-130
+Ka 0.823529 0.784314 0.752941
+Kd 0.823529 0.784314 0.752941
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/tile004-127-136-130.jpg
+
+newmtl Concrete_Salt
+Ka 0.733333 0.705882 0.670588
+Kd 0.733333 0.705882 0.670588
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Concrete_Salt.jpg
+
+newmtl SW_7516_Kestrel_White
+Ka 0.87451 0.839216 0.784314
+Kd 0.87451 0.839216 0.784314
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Wood_Deck_Worn
+Ka 0.596078 0.552941 0.564706
+Kd 0.596078 0.552941 0.564706
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd ConceptHouseExport01_Textures/Wood_Deck_Worn.jpg
+
+#EOF

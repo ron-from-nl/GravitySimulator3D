@@ -1,0 +1,581 @@
+# Bodies with mass radiate gravitational particles (gravitons) outward, attracting other bodies with mass (Theory)
+# 
+# I believe gravity is not a distortion of space-time fabric like Einstein thought in his theory of General Relativity.
+# How can the absence of baryonic matter influence baryonic matter itself?
+# Therefore i believe that gravity simply is graviton radiation coming from any body with mass,
+# These graviton particles attracts matter on it's path in the direction of it's source.
+# just like stars radiate light and heat particles (electrons with different wavelengths).
+# Just imagine sunlight as gravitational radiation, but in the case of gravity any body with mass radiates gravitons,
+# 
+# For instance the earth is attracted only to the Sun's outward radiating particles and not to the Sun itself.
+# In this simulation the Earth still moves towards the source of the outward radiating gravitational particles (from the Sun).
+# That to my ideas is what causes gravitational forces between bodies with mass. Inward pressure forces smaller particles (gravitons) outwards.
+# The outward radiating particles with gravitational forces are equivalent to Henry Cavendish's gravitational constant.
+# 
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = BLACK
+SceneId = Gravity2 Scene
+SceneTargetFrameRate = 10 # 0 = no delay, >0 = fixed targetframerate
+SceneMotionRate = 10 # Range = 0-1000
+SceneMotionFactor = 1
+SceneGravityFactor = 1
+StartsWithDisplays = True
+StartsWithMotion = True
+End = General Settings
+#
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 6,669832582
+################## Camera1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera1
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera1
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = -1000
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Camera2 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera2
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera1
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 40.0
+TranslateY = 0.0
+TranslateZ = -500
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 335.7119999999995
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Camera3 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera3
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera2
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = -100.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Camera4 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera4
+Function = Camera
+ZoomAngle = 90
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera3
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 199.35733263264856
+TranslateY = 0.0
+TranslateZ = -202.93240786174331
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 326.20199999999943
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Sun ####################
+# Orbital Velocity: sqrt((6,673e-11*9,155e17)/30000) = 45.1262359 mps
+#
+Begin = Object
+Verbosity = 0
+Load = True
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Type = Node
+Name = Sun
+Function = Sphere
+Divisions = 256
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = GREY
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+
+DropTrail = Tru
+TrailDivisions = 32
+TrailLength = 50
+TrailColor = LIGHTBLUE
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 5000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Sun
+CelestialName = Sun
+CelestialMass = 10e12
+CelestialRadius = 200.0
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = -1
+#
+# HyperSphere (every node can drop a hypershphere of nodes as so called radiation)
+#
+DropHyperSphere = True
+DropHyperSphereInterval = 8000 # mSec
+HyperSphereLifetime = 7000 # mSec
+#
+Shells = 1
+ShellRadius = 200.0
+ShellResolution = 10.0
+ShellMotion = 100.0
+Randomise = 5.0
+#
+HyperSphereDivisions = 16
+HyperSphereColor = GREY
+HyperSphereCullFace = BACK
+HyperSphereDrawMode = LINE
+HyperSphereOpacity = 1.0
+HyperSphereRadiusPercentage = 10.0
+#
+#HyperSphereCelestialRef = Graviton
+HyperSphereCelestialName = Graviton
+HyperSphereCelestialMass = 1e11
+HyperSphereCelestialRadius = 0.01
+HyperSphereCelestialGravitational = True
+HyperSphereCelestialCollisional = False
+HyperSphereCelestialGroup = 0
+HyperSphereCelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -250.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Earth ####################
+# Orbital Velocity: sqrt((6,673e-11*9,155e17)/30000) = 45.1262359 mps
+#
+Begin = Object
+Verbosity = 0
+Load = True
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Type = Node
+Name = Earth
+Function = Sphere
+Divisions = 256
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = LINE # LINE / FILL
+Color = GREY
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/Shared/earth-lowres.jpg
+
+DropTrail = True
+TrailDivisions = 16
+TrailLength = 50
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 5000 # mSec
+TrailRadiusPercentage = 1.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Earth
+CelestialName = Earth
+CelestialMass = 1e11
+CelestialRadius = 200.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 250.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+CoordinalRestorable = False
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Stars ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = stars 
+Function = Stars
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+#
+TotalStars = 100
+MinStarDistance = 150000000000.0
+MaxStarDistance = 1000000000000.0
+SelfIlluminating = True
+#
+# Celestial
+#
+CelestialRef = sun
+#CelestialName = sun
+#CelestialMass = 1.98855e30
+#CelestialRadius = 6.955e8
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+Cached = True
+#
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#

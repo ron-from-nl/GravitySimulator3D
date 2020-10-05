@@ -1,0 +1,831 @@
+# What we have here is my theory of an abstract representation of a hydrogen atom.
+# The big blueish planet represents the proton or the nucleus of the hydrogen atom.
+# The blue particles are 3 experimental electrons orbiting the proton / atom nucleus.
+# The yellow balls are possibly photons orbiting the electron causing the electron to wobble, making fast electrons look like waves.
+# The reason i suggest it could be a photon is because with electron quantum leaps to lower atomic shells (Bohr) the atom emits light.
+# Quantum leaps to higher / outer atomic shells do not cause light / photons to be emitted, whereas I even doubt that photons are EM light particles.
+# It could well be that actually electrons them selves are causing the light phenomena on our retina, because we emit electrons through radio antenna's.
+# Light simply is a shorter wavelength particle in comparison to radio emitted electrons, which are just longer wavelength particles coming from an antenna.
+# The photon / electron I consider a separate topic / field of study, For now this is about the question whether EM waves are particles (likely electrons) that move in wave patterns.
+#
+# Check how the smaller yellow photon makes the slightly bigger blue electron wobble on it's own orbiting trajectory around the proton.
+#
+# The top electron is a suspect candidate for what could be happening on the scale of electrons.
+# The middle electron is just there so you see the difference in the electron's orbit (when nothing orbits the electron itself).
+# The lower electron is just there to simulate a horizontally orbiting photon around the electron (highly unlikely, because highly unstable).
+#
+################## General Settings ####################
+#
+Begin = General Settings
+Verbosity = 1
+SceneColor = BLACK
+SceneId = Wave Patterns Scene
+SceneTargetFrameRate = 0 # 0 = no delay, >0 = fixed targetframerate
+SceneMotionRate = 100 # Range = 0-1000
+SceneMotionFactor = 5
+SceneGravityFactor = 5
+StartsWithDisplays = True
+StartsWithMotion = True
+End = General Settings
+#
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 6,669832582
+################## Camera1 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera1
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = cam
+CelestialName = Camera1
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = True
+MotionStateChangeble = False
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -1005
+TranslateY = -22.0
+TranslateZ = -30463
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 60.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Camera2 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera2
+Function = Camera
+ZoomAngle = 60.0
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = Camera2
+CelestialName = Camera2
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -1000
+TranslateY = -22.0
+TranslateZ = -30463
+TranslateXMotion = 45.1262359
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 60.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -0.1
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Camera3 ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Camera3
+Function = Camera
+ZoomAngle = 60
+LightType = 2 # 0 = nolight, 1 = ambientlight, 2 = pointlight, >2 = nolight
+MeshFile = /rdj/resources/Shared/vcam.dae
+#
+# Celestial
+#
+#CelestialRef = Camera3
+CelestialName = Camera3
+CelestialMass = 20.0
+CelestialRadius = 0.4
+CelestialGravitational = False
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = Fakse
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 698.0482623836498
+TranslateY = -0.9232713534140298
+TranslateZ = -30501.206024129428
+TranslateXMotion = 45.1262359
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0
+RotationY = 321.7821999999789
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -0.03
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Proton ####################
+# Orbital Velocity: sqrt((6,673e-11*9,155e17)/30000) = 45.1262359 mps
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Proton
+Function = Sphere
+Divisions = 32
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = DARKBLUE
+Opacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+# ImageFile = /rdj/resources/ProtonScene/proton.jpg
+ImageFile = /rdj/resources/Shared/icyplanet-highres.png
+
+DropTrail = False
+TrailLength = 10
+TrailColor = GREY
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = FILL # LINE / FILL
+DropTrailInterval = 60000 # mSec
+TrailRadiusPercentage = 10.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = proton
+CelestialName = proton
+CelestialMass = 9.155e17
+CelestialRadius = 18310.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 0
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = 0.0
+TranslateXMotion = 0.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 172.0
+RotationY = 93.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = 0.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Electron Top ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Electron Top 
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = True
+TrailLength = 10000
+TrailColor = LIGHTBLUE # INDIANRED
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 4000 # mSec
+TrailRadiusPercentage = 50.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Electron Top
+CelestialName = Electron Top
+CelestialMass = 1.0e15
+CelestialRadius = 10.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 1
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = -300.0
+TranslateZ = -30000.0
+TranslateXMotion = 45.1262359 - 1.8
+TranslateYMotion = 1.8
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Photon Top ####################
+#
+Begin = Object
+Verbosity = 0
+Load = True
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Type = Node
+Name = Photon Top
+Function = Sphere
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = YELLOW
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/photon.jpg
+
+DropTrail = True
+TrailLength = 1000
+TrailColor = KHAKI
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 50.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Photon Top
+CelestialName = Photon Top
+CelestialMass = 1.0e14
+CelestialRadius = 5.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 1
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = -150.0
+TranslateY = -300.0
+TranslateZ = -30000.0
+TranslateXMotion = 45.1262359
+TranslateYMotion = -18.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 7.609999999999963
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#-10000 1500 100 60
+################## Electron Mid ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Electron Mid
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = True
+TrailLength = 10000
+TrailColor = LIGHTBLUE
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 4000 # mSec
+TrailRadiusPercentage = 50.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Electron Mid
+CelestialName = Electron Mid
+CelestialMass = 1.0e15
+CelestialRadius = 10.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 2
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 0.0
+TranslateZ = -30000.0
+TranslateXMotion = 45.1262359 - 1.8
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Electron Bottom ####################
+# orbital velocity: sqrt((Gm/150) sqrt((6,673e-11*1e15)/150) = 21.09186257
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = Electron Bottom
+Function = Sphere
+Divisions = 64
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = WHITE
+MapType = DiffuseMap # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/electron.jpg
+
+DropTrail = True
+TrailLength = 10000
+TrailColor = LIGHTBLUE
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 4000 # mSec
+TrailRadiusPercentage = 50.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Electron Bottom
+CelestialName = Electron Bottom
+CelestialMass = 1.0e15
+CelestialRadius = 10.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 3
+CelestialPolarity = -1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 300.0
+TranslateZ = -30000.0
+TranslateXMotion = 45.1262359 - 1.8
+TranslateYMotion = 0.0
+TranslateZMotion = 1.8
+RotationX = 0.0
+RotationY = 0.0
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#
+################## Photon Bottom ####################
+#
+Begin = Object
+Verbosity = 0
+Load = True
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Type = Node
+Name = Photon Bottom
+Function = Sphere
+Divisions = 16
+CullFace = BACK # BACK / FRONT / NONE
+DrawMode = FILL # LINE / FILL
+Color = YELLOW
+MapType = DiffuseColor # DiffuseColor / DiffuseMap / SelfIlluminationMap / BumpMap
+ImageFile = /rdj/resources/ProtonScene/photon.jpg
+
+DropTrail = True
+TrailLength = 1000
+TrailColor = KHAKI
+TrailCullFace = BACK # BACK / FRONT / NONE
+TrailDrawMode = LINE # LINE / FILL
+DropTrailInterval = 2000 # mSec
+TrailRadiusPercentage = 50.0
+TrailOpacity = 1.0 # 0.0 - 1.0 (Doesn't work yet, keep on 1)
+#
+# Celestial
+#
+#CelestialRef = Photon Bottom
+CelestialName = Photon Bottom
+CelestialMass = 1.0e14
+CelestialRadius = 5.0
+CelestialGravitational = True
+CelestialCollisional = False
+CelestialGroup = 3
+CelestialPolarity = 1
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = True
+MainEngPwrMassFactor = 10.0
+TransEngPwrMassFactor = 1.0
+RotEngPwrMassFactor = 1.0
+#
+# Coordinal
+#
+ScaleX = 1.0
+ScaleY = 1.0
+ScaleZ = 1.0
+TranslateX = 0.0
+TranslateY = 300.0
+TranslateZ = -30150.0
+TranslateXMotion = 45.1262359 + 18.0
+TranslateYMotion = 0.0
+TranslateZMotion = 0.0
+RotationX = 0.0
+RotationY = 7.609999999999963
+RotationZ = 0.0
+RotationXMotion = 0.0
+RotationYMotion = -4.0
+RotationZMotion = 0.0
+#
+# Rotation Pivot Points
+#
+# RotationXX = 0.0
+# RotationXY = 0.0
+# RotationXZ = 0.0
+# RotationYX = 0.0
+# RotationYY = 0.0
+# RotationYZ = 0.0
+# RotationZX = 0.0
+# RotationZY = 0.0
+# RotationZZ = 0.0
+#
+# State
+#
+Cached = True
+#
+SetTransitions = True
+BackupCoordinalState = True
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#-10000 1500 100 60
+################## Stars ####################
+#
+Begin = Object
+Verbosity = 0
+Quantity = 1
+Lifetime = -1 # mSec
+OnMenu = True
+Load = True
+Type = Node
+Name = stars 
+Function = Stars
+ImageFile = /rdj/resources/Shared/sun1-medres.jpg
+#
+TotalStars = 100.0
+MinStarDistance = 150000000000.0
+MaxStarDistance = 1000000000000.0
+SelfIlluminating = True
+#
+# Celestial
+#
+CelestialRef = sun
+#CelestialName = sun
+#CelestialMass = 1.98855e30
+#CelestialRadius = 6.955e8
+#CelestialGravitational = False
+#CelestialCollisional = False
+#CelestialGroup = 0
+#CelestialPolarity = 0
+#
+# Motion
+#
+StartingWithMotion = False
+MotionStateChangeble = False
+MainEngPwrMassFactor = 0.0
+TransEngPwrMassFactor = 0.0
+RotEngPwrMassFactor = 0.0
+#
+# Coordinal
+#
+Cached = True
+#
+AddNodeToList = True
+SetNodeVisible = True
+AddNodeToScene = True
+End = Object
+#

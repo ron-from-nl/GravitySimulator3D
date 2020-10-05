@@ -1,0 +1,118 @@
+Use [W] [A] [S] [D] [X] keys to move and mouse (CLICK & ESC) to steer
+Use SPACE to show and hide SceneDisplay (MENU) and NodeDisplay.
+
+Open "readme.scene" for more info on howto use GravitySimulator3D.
+Open SceneDisplay (left side) -> click "Scenes" -> "readme.scenes"
+
+Gautama Buddha (From Wikipedia, the free encyclopedia)
+
+Gautama Buddha, also known as Siddhārtha Gautama,[note 3] Shakyamuni, 
+or simply the Buddha, was a sage[3] on whose teachings Buddhism was founded.
+He is believed to have lived and taught mostly in eastern India sometime 
+between the sixth and fourth centuries BCE.[4][note 5]
+
+The word Buddha means "awakened one" or "the enlightened one". 
+"Buddha" is also used as a title for the first awakened being in an era.
+In most Buddhist traditions, Siddhartha Gautama is regarded as the 
+Supreme Buddha (Pali sammāsambuddha, Sanskrit samyaksaṃbuddha) of our age.
+Gautama taught a Middle Way between sensual indulgence and the severe asceticism
+found in the Sramana (renunciation) movement[5] common in his region. 
+He later taught throughout regions of eastern India such as Magadha and Kośala.
+
+Gautama is the primary figure in Buddhism and accounts of his life, discourses, 
+and monastic rules are believed by Buddhists to have been summarized after his 
+death and memorized by his followers. 
+Various collections of teachings attributed to him were passed down by oral 
+tradition and first committed to writing about 400 years later.
+
+Historical Siddhārtha Gautama
+
+Ancient kingdoms and cities of India during the time of Buddha.
+Scholars are hesitant to make unqualified claims about the historical facts of 
+the Buddha's life. 
+Most accept that he lived, taught and founded a monastic order during the 
+Mahajanapada era in India during the reign of Bimbisara, the ruler of the 
+Magadha empire, and died during the early years of the
+reign of Ajatshatru who was the successor of Bimbisara, thus making him 
+a younger contemporary of Mahavira, the Jain teacher.[7] 
+Apart from the Vedic Brahmins, the Buddha's lifetime coincided with the 
+flourishing of other influential sramana schools of thoughts like Ājīvika, 
+Cārvāka, Jain, and Ajñana. 
+It was also the age of influential thinkers like Mahāvīra, Pūraṇa Kassapa , 
+Makkhali Gosāla, Ajita Kesakambalī, Pakudha Kaccāyana, and Sañjaya Belaṭṭhaputta, 
+whose viewpoints the Buddha most certainly
+must have been acquainted with and influenced by.[8][9][note 7] Indeed, 
+Sariputta and Maudgalyāyana, two of the foremost disciples of the Buddha, 
+were formerly the foremost disciples of Sañjaya Belaṭṭhaputta, 
+the skeptic.[10] There is also evidence to suggest that the two masters, 
+Alara Kalama and Udaka Ramaputta, were indeed historical figures
+and they most probably taught Buddha two different forms of meditative 
+techniques.While the most general outline of "birth, maturity, renunciation, 
+search, awakening and liberation, teaching, death"
+must be true,[12] most scholars do not consistently accept all of the details 
+contained in traditional biographies.[13][14]
+
+The times of Gautama's birth and death are uncertain. Most historians in the 
+early 20th century dated his lifetime as circa 563 BCE to 483 BCE.[1][15] 
+More recently his death is dated later, between 411 and 400 BCE, while at a 
+symposium on this question held in 1988,[16][17][18] the majority of those who 
+presented definite opinions gave dates
+within 20 years either side of 400 BCE for the Buddha's death.[1][19][note 5] 
+These alternative chronologies, however, have not yet been accepted by all 
+historians.[20][21][note 8]
+
+The evidence of the early texts suggests that Siddhārtha Gautama was born into 
+the Shakya clan, a community that was on the periphery, both geographically and 
+culturally, of the northeastern Indian subcontinent in the 5th century BCE.[22] 
+It was either a small republic, in which case his father was an elected 
+chieftain, or an oligarchy, in which case his father was an oligarch.[22] 
+According to the Buddhist tradition, Gautama was born in Lumbini, nowadays in 
+modern-day Nepal, and raised in Kapilavastu (Shakya capital), which may either 
+be in present day Tilaurakot, 
+Nepal or Piprahwa, India.[note 1] He obtained his enlightenment in Bodh Gaya, 
+gave his first sermon in Sarnath, and died in Kushinagara.
+
+No written records about Gautama have been found from his lifetime or some 
+centuries thereafter. One edict of Emperor Ashoka, who reigned from circa 
+269 BCE to 232 BCE, commemorates the Emperor's 
+pilgrimage to the Buddha's birthplace in Lumbini. Another one of his edicts 
+mentions several Dhamma texts, establishing the existence of a written Buddhist tradition at least by the time of the 
+Mauryan era and which may be the precursors of the Pāli Canon.[23][note 9] The 
+oldest surviving Buddhist manuscripts are the Gandhāran Buddhist texts, reported 
+to have been found in or around 
+Haḍḍa near Jalalabad in eastern Afghanistan and now preserved in the British 
+Library. They are written in the Kharoṣṭhī script and the Gāndhārī language on 
+twenty-seven birch bark scrolls, and 
+they date from the first century BCE to the third century CE.
+
+The Four Noble Truths
+Main article: Four Noble Truths
+
+The Buddha teaching the Four Noble Truths. Sanskrit manuscript. Nālandā, Bihar, 
+India. The teachings on the Four Noble Truths are regarded as central to the 
+teachings of Buddhism, and are said to provide a conceptual framework for 
+Buddhist thought. 
+These four truths explain the nature of dukkha (suffering, anxiety, 
+unsatisfactoriness), its causes, and how it can be overcome. The four truths are:
+
+The truth of dukkha (suffering, anxiety, unsatisfactoriness[note 5])
+The truth of the origin of dukkha
+The truth of the cessation of dukkha
+The truth of the path leading to the cessation of dukkha
+The first truth explains the nature of dukkha. Dukkha is commonly translated as 
+"suffering", "anxiety", "unsatisfactoriness", "unease", etc., and it is said to 
+have the following three aspects:
+
+The obvious suffering of physical and mental illness, growing old, and dying.
+The anxiety or stress of trying to hold onto things that are constantly changing.
+A subtle dissatisfaction pervading all forms of life due to the fact that all 
+forms of life are changing, impermanent and without any inner core or substance. 
+On this level, the term indicates a lack of satisfaction, a sense that things 
+never measure up to our expectations or standards.[note 6]
+The second truth is that the origin of dukkha can be known. Within the context 
+of the four noble truths, the origin of dukkha is commonly explained as craving 
+(Pali: tanha) conditioned by ignorance (Pali: avijja). 
+On a deeper level, the root cause of dukkha is identified as ignorance 
+(Pali: avijja) of the true nature of things. 
+The third noble truth is that the complete cessation of dukkha is possible, and 
+the fourth noble truth identifies a path to this cessation.[note 7]

@@ -1,0 +1,39 @@
+# Alias Wavefront MTL File Exported from SketchUp
+# with OBJexporter (c) 2013 TIG
+# Made for 'BenchPlanterSet.obj'
+
+newmtl Default_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl SW_6539_Soothing_White
+Ka 0.894118 0.886275 0.898039
+Kd 0.894118 0.886275 0.898039
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl JoA1_Marble9
+Ka 0.866667 0.819608 0.831373
+Kd 0.866667 0.819608 0.831373
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd BenchPlanterSet_Textures/JoA1_Marble9.jpg
+
+newmtl suc-groundleave-019
+Ka 0.462745 0.392157 0.341176
+Kd 0.462745 0.392157 0.341176
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd BenchPlanterSet_Textures/suc-groundleave-019.png
+
+#EOF

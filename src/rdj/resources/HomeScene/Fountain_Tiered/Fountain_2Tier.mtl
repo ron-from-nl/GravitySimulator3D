@@ -1,0 +1,39 @@
+# Alias Wavefront MTL File Exported from SketchUp
+# with OBJexporter (c) 2013 TIG
+# Made for 'Fountain_2Tier.obj'
+
+newmtl Default_Material
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Pyrenees
+Ka 0.627451 0.682353 0.592157
+Kd 0.627451 0.682353 0.592157
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+map_Kd Fountain_2Tier_Textures/Pyrenees.jpg
+
+newmtl 0137_Black
+Ka 0 0 0
+Kd 0 0 0
+Ks 0.333 0.333 0.333
+Ns 0
+d 1
+Tr 1
+
+newmtl Water_Pool_Light
+Ka 0.243137 0.584314 0.65098
+Kd 0.243137 0.584314 0.65098
+Ks 0.333 0.333 0.333
+Ns 0
+d 0.6
+Tr 0.6
+map_Kd Fountain_2Tier_Textures/Water_Pool_Light.jpg
+
+#EOF
